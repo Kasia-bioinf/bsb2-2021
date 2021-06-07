@@ -17,7 +17,7 @@ clustalo -i myoglobins.fasta --outfmt=clu -o myoglobins.aln
 
    Między którymi parami sekwencji jest najmniejszy dystans i ile wynosi?
 
-3. Wykonaj poniższe polecenie w celu obliczenia poziomu identyczności między sekwencjami. Ile wynosi identyczności sekwencji aligatora i goryla?
+3. Wykonaj poniższe polecenie w celu obliczenia poziomu identyczności między sekwencjami. Ile wynosi identyczność sekwencji aligatora i goryla?
 
    ```bash
    clustalo -i myoglobins.fasta --outfmt=clu -o myoglobins.aln --full --distmat-out=dist.txt --percent-id
@@ -30,7 +30,7 @@ clustalo -i myoglobins.fasta --outfmt=clu -o myoglobins.aln
 Wykonaj przyrównani sekwencji z poprzedniego zadania używając programu MAFFT i zapisując wynik w formacie `clustal` (`mafft -h`). Uzyskane przyrównanie umieść w sprawozdaniu.
 
 1. Podaj użyte polecenie.
-2. Opisz krótko czym różnią się przyrównnia uzyskane programem ClustalOmega i MAFFT.
+2. Opisz krótko czym różnią się przyrównania uzyskane programem ClustalOmega i MAFFT.
 
 
 
