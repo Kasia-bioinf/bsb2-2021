@@ -117,7 +117,7 @@ Które drzewo najodpowiedniej opisuje relację między powyższymi gatunkami.
 ## MEGA
 Zainstaluj program MEGA (Molecular Evolutionary Genetic Analysis): [https://www.megasoftware.net](https://www.megasoftware.net).
 
-### Zad. 7 - Pochodzenie niedźwiedzia polarnego i pandy wielkiej.
+### Zad. 8 - Pochodzenie niedźwiedzia polarnego i pandy wielkiej.
 
 W pliku [bears.fasta](http://www.combio.pl/files/bears.fasta) znajdują się sekwencje 12s rRNA (niekodujące białka) pochodzące z 7 gatunków niedźwiedzi i 4 gatunków innych kręgowców:
 
@@ -136,7 +136,7 @@ W pliku [bears.fasta](http://www.combio.pl/files/bears.fasta) znajdują się sek
 ---
 
 
-#### 7.1 Dopasowanie sekwencji
+#### 8.1 Dopasowanie sekwencji
 
 * Otwórz program MEGA.
 * Otwórz w programie sekwencje znajdujące się w pliku `bears.fasta`.
@@ -147,7 +147,7 @@ W pliku [bears.fasta](http://www.combio.pl/files/bears.fasta) znajdują się sek
 1. Jaka jest długość dopasowania?
 
 
-#### 7.2 Analiza filogenetyczna
+#### 8.2 Analiza filogenetyczna
 
 * W oknie dopasowania sekwencji wybierz z menu wybierz `Data` > `Phylogenetic Analysis` (sekwencje nie kodują białka).
 * W głównym oknie programu MEGA wygeneruj drzewo używając algorytmu *Neighbor-Joining (NJ)* 
@@ -168,14 +168,14 @@ Ustaw korzeń drzewa na gałąź `Crocodillian skink (outgroup)`, wyświetl drze
 6. Które niedźwiedzie są najstarsze?
 
 
-### Zad. 8
+### Zad. 9
 Sekwencje z poprzedniego zadania należą do żyjących gatunków niedźwiedzi. Niedźwiedź jaskiniowy (*Ursus spelaeus*) wymarł ok. 20 tys. lat temu. Wybierz dowolną sekwencję 12s rRNA z pliku `bears.fasta`, użyj jej jako sekwencji zapytania w programie BLAST i zidentyfikuj sekwencję 12s rRNA niedźwiedzia jaskiniowego. W wynikach programu BLAST otwórz rekord znalezionej sekwencji, następnie wyszukaj w rekordzie `/gene="12S rRNA"` i wyświetl sekwencje tego genu w formacie FASTA. Następnie znalezioną sekwencję dołącz do sekwencji pozostałych gatunków w pliku `bears.fasta` i zbuduj drzewo filogenetyczne.
 
 1. Który niedźwiedź jest najbliższym krewnym wymarłego niedźwiedzia jaskiniowego?
 2. Czy dołączenie niedźwiedzia jaskiniowego zmieniło układ pozostałych taksonów na drzewie?
 
 
-### Zad. 9 (Ocena wiarygodności drzewa: metoda *bootstrap*)
+### Zad. 10 (Ocena wiarygodności drzewa: metoda *bootstrap*)
 > Bootstrap jest metodą statystyczną, która opiera się na tworzeniu dużej liczby replik z niewielkimi zmianami w danych początkowych. Drzewa skonstruowane ze zbiorów danych z wprowadzonymi losowymi zmianami dają rozkład topologii drzew, który umożliwia statystyczną ocenę każdego pojedynczego kladu z danego drzewa.
 > Wykorzystanie metody bootstrap do oceny wiarygności skonstruowanego wcześniej drzewa filogenetycznego obejmuje wygenerowanie wielu dopasowań sekwencji (zazwyczaj między 100 a 1000). Dla każdego z wygenerowanych dopasowań jest wyznaczane drzewo filogenetyczne. W zbiorze takich drzew niektóre drzewa będą miały taką samą topologię, jak drzewo oryginalne. Inne będą się od niego różnić. Każdemu z węzłów w oryginalnym drzewie jest następnie przypisywana tzw. wartość bootstrap równa odsetkowi wygenerowanych drzew, w których obserwowano dokładnie takie samo rozgałęzienie linii ewolucyjnych.
 > Nie ma ustalonej reguły, która mówiłaby jak duża musi być wartość bootstrap, aby uznać odpowiedni węzeł drzewa za wiarygodny, a tym samym uznać, że gatunki, których linie ewolucyjne się w nim zbiegają, tworzą klad. W praktyce przyjmuje się, że wartości powyżej 70% takie twierdzenie usprawiedliwiają.
@@ -197,7 +197,7 @@ Ponownie oblicz dystans między sekwencjami stosując jako model substytucji: `K
 6. Ile wynosi dystans między `Spectacled Bear` a `Polar Bear`.
 
 
-### Zad. 10 (Algorytmy grupowania)
+### Zad. 11 (Algorytmy grupowania)
 W programie MEGA wykonaj drzewo filogenetyczne sekwencji z poprzedniego zadania w oparciu o poniższe algorytmy, stosując metodę bootstrap z 100 pseudoreplikacjami.
 
 * największej wiarygodności (Maximum Likelihood Tree)
@@ -206,7 +206,7 @@ W programie MEGA wykonaj drzewo filogenetyczne sekwencji z poprzedniego zadania 
 Czy drzewa uzyskane tymi metodami pozwalają wyciągnąć podobne wnioski na temat spokrewnienia niedźwiedzi, co w przypadku drzewa otrzymanego metodą NJ?
 
 
-### Zad. 11 (Drzewo genów)
+### Zad. 12 (Drzewo genów)
 W pliku [tnrc6.fasta](http://www.combio.pl/files/tnrc6.fasta) znajduje się 17 sekwencji białkowych genu TNRC6 pochodzących z bezkręgowców i kręgowców. W programie MEGA utwórz drzewo filogenetyczne tych sekwencji korzystając z algorytmu Neighbor-Joining i metody boostrap (1000 replikacji). Ustaw korzeń drzewa na sekwencji muchy.
 
 1. Wymień organizmy zawierające jedną kopię genu TNRC6.
